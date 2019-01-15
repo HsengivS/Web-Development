@@ -1,0 +1,16 @@
+html, body { height: 100%; padding: 1; margin: 0; }
+div { width: 50%; height: 50%; float: left; }
+#div1 { background:  #ffad33; }
+#div2 { background:  #0040ff; }
+#div3 { background:  #00ff00; }
+#div4 {
+  background: #ffd11a;
+  font-style: Ubuntu;
+  font-size: 15px;
+ }
+
+.container{
+  display: table;
+  width: auto;
+  height: auto;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- <link rel="stylesheet" href="css/master1.css"> -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/master1.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta charset="utf-8">
+    <title>Machine Learning Engineer</title>
+  </head>
+  <body>
+    <div id="div1">
+      <h4 class="container"><strong><em>Hello Visitors..........!</em></strong></h4>
+      <h2 class="container"><strong><em>I am Vignesh Saravanan</em></strong></h2>
+      <h4 class="container"><strong><em>I am a Full Stack Machine Learning Developer, Deep Learning Enthusiast, </em></strong></h4>
+      <h4 class="container"><strong><em>a Data lover and a Basketball player</em></strong></h4>
+      <h4 class="container"><strong><em>I have 7 months of experience at <a href="http://kognetion.com/">kognetion</a> as ML Developer</em></strong></h4>
+      <ul>
+        <li><p><strong><em>I have built scalable software to meet the needs of the Recruitment Industry</em></strong></p></li>
+        <li><p><strong><em>Involved in cleaning text data and extracting entities from text using NER model</em></strong></p></li>
+        <li><p><strong><em>Worked in Building various Regression, Classification and dimensionality reduction models</em></strong></p></li>
+      </ul>
+    </div>
+    <div id="div2">
+      <h2 class="container"><strong><em>Technical skills</em></strong></h2>
+      <h4 class="container"><strong><em>Programming Language:Python, R</em></strong></h4>
+      <h4 class="container"><strong><em>Database Technologies:mongo DB, MySQL, DB2, Pyspark</em></strong></h4>
+      <h4 class="container"><strong><em>Web Development:HTML5, CSS3, JavaScript, Flask</em></strong></h4>
+      <h4 class="container"><strong><em>Others: REST api, Docker, Heroku, Digital Ocean, AWS - s3, EC2</em></strong></h4>
+    </div>
+    <div id="div3">
+      <h2 class="container"><strong><em>Portfolio</em></strong></h2>
+      <ul>
+        <li><h3 class="container"><strong><em><a href="https://github.com/tensorflow">See my contributions on Githhub</a> </em></strong></h3></li>
+        <li><h3 class="container"><strong><em><a href="https://public.tableau.com/profile/vignesh4475#!/vizhome/ProsperLoanData_11/ProsperLoanStory-Version1">I am a Tableau guy too..</a> </em></strong></h3></li>
+        <li><h3 class="container"><strong><em><a href="https://medium.com/@VigneshSaravanan">Here is my blog</a> </em></strong></h3></li>
+        <li><h3 class="container"><strong><em><a href="https://www.linkedin.com/in/hsengivs/">Connect with me on Linkedin</a> </em></strong></h3></li>
+        <li><h3 class="container"><strong><em><a href="https://twitter.com/HsengivS">tweet here...</a> </em></strong></h3></li>
+      </ul>
+    </div>
+    <div id="div4">
+      <h3 class="container"><strong><em>Hire me..!</em></strong></h3>
+      <h3 class="container"><strong><em>Mail-ID: vigneshs@sase.ssn.edu.in </em> </strong> </h3>
+      <h3 class="container"><strong><em>8939255990 / 8056190202</em> </strong> </h3>
+      <h3 id="resume" class="container"><strong><em><a href="/resume/VIGNESH CV .pdf">Here is my resume</a> </em> </strong> </h3>
+      <form class="container" action="/thanks" method="post">
+        <input type="email" name="email" placeholder="email" required><br>
+        <br>
+        <input type="text" name="text" value="" placeholder="Comments please"><br>
+        <br>
+        <!-- <textarea name="send_message" rows="2" cols="65" placeholder="Want to review or tell something" required></textarea><br> -->
+        <input type="submit" name="submit" value="convey message">
+      </form>
+    </div>
+  </body>
+</html>
