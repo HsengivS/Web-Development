@@ -14,6 +14,6 @@ I have just made a simple html templates with css files and used database as mon
 
 * run app.py
 
-open browser and navigate to <localhost>:<port.no>/ 
+open browser and navigate to localhost:<port.no>/ 
   
 # Thank you
