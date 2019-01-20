@@ -8,4 +8,12 @@ I have just made a simple html templates with css files and used database as mon
 
 # How To ....
 
-git clone 
+* git clone https://github.com/HsengivS/Web-Development.git
+
+* pip install -r requirements.txt
+
+* run app.py
+
+open browser and navigate to <localhost>:<port.no>/ 
+  
+# Thank you
