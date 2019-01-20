@@ -4,7 +4,7 @@
 
 I have just made a simple html templates with css files and used database as mongodb for data storage 
 
-[Click here to see my deployment](https://hsengivs.azurewebsites.net/)
+[Click here to see my app](https://hsengivs.azurewebsites.net/)
 
 # How To ....
 
