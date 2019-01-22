@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 from pymongo import MongoClient
 app = Flask(__name__)
 
-client = MongoClient('mongodb+srv://Vignesh:2wuMXrzpAhiDk1D7@cluster0-kbolu.mongodb.net/test?retryWrites=true')
+client = MongoClient(<MOGODB CONNECTION STRING>)
 db = client.Heroku
 col = db['resume']
 
